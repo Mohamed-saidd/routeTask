@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <title>web page</title>
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="title">
+        <h1 class="text-center text-capitalize">Customers Transactions</h1>
+      </div>
+      <div class="info">
+        <div
+          class="inner-info d-flex justify-content-center align-items-center"
+        >
+          <div class="total-customers justify-content-center">
+            <i class="fa-solid fa-headset"></i>
+            <div class="text text-center">
+              <h4>Total Customers</h4>
+              <p id="cus" class="m-0">7</p>
+            </div>
+          </div>
+          <div class="total-transactions justify-content-center">
+            <i class="fa-solid fa-right-left"></i>
+            <div class="text text-center">
+              <h4>Total Transactions</h4>
+              <p id="tra" class="m-0">7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search row mt-5">
+        <input
+          id="searchByname"
+          type="text"
+          class="form-control  m-auto"
+          placeholder="Search By Name..."
+        />
+        <input
+          id="searchByAmount"
+          type="text"
+          class="form-control m-auto"
+          placeholder="Search By Amount..."
+        />
+      </div>
+      <table
+      id="table"
+        class="mt-5 table align-middle table-striped text-center table-light table-hover"
+      >
+        <thead>
+          <tr>
+            <th>Customer id</th>
+            <th>Customer Name</th>
+            <th>Transaction id</th>
+            <th>Transaction date</th>
+            <th>Transaction amount</th>
+          </tr>
+        </thead>
+        <tbody id="myData"></tbody>
+      </table>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

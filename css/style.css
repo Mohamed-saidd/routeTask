@@ -1,0 +1,63 @@
+:root {
+  --main-color: rgb(14, 94, 94);
+}
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1 {
+  color: var(--main-color);
+}
+.container .info .inner-info {
+  border: 2px solid var(--main-color);
+  gap: 150px;
+  border-radius: 20px;
+}
+.container .info .inner-info .total-customers {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+  padding: 20px 40px;
+
+  color: var(--main-color);
+  border-radius: 10px;
+}
+.container .info .inner-info .total-customers i {
+  font-size: 30px;
+  background-color: rgba(14, 94, 94, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+}
+.container .info .inner-info .total-customers .text p {
+  font-size: 20px;
+}
+.container .info .inner-info .total-transactions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+  padding: 20px 40px;
+
+  padding: 20px 40px;
+  color: var(--main-color);
+  border-radius: 10px;
+}
+.container .info .inner-info .total-transactions i {
+  font-size: 30px;
+  background-color: rgba(14, 94, 94, 0.2);
+  border-radius: 50%;
+  padding: 10px;
+}
+.container .info .inner-info .total-transactions .text p {
+  font-size: 20px;
+}
+.search{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.search input{
+width: calc(50% - 20px);
+
+}

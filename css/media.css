@@ -1,0 +1,27 @@
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container .info .inner-info {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .search input{
+    width: 100%;
+    
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
